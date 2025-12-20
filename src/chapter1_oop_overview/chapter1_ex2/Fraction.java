@@ -1,41 +1,39 @@
-package chapter1_oop_overview;
+package chapter1_oop_overview.chapter1_ex2;
+
+import util.IntegerNumberUtil;
 
 import java.util.Scanner;
 
 public class Fraction {
-    //    Viết chương trình nhập vào một phân số (gồm tử & mẫu).
-//    a. Viết method nhập, xuất cho phân số.
-//        i.  Đối với method nhập sẽ không cho nhập mẫu vào số 0
-//        ii. Đối với method xuất nên ở dạng rút gọn nhất (2/8 nên là 1/4, 8/-4 nên là -2, …)
-//    b. Tính Tổng, Hiệu, tích thương của 2 phân số
-//    c. Hãy cho biết phân số đó là phân số âm hay dương hay bằng không
-    public int numerator;
+    int numerator;
+    int denominator;
 
-    public int denominator;
-
-
-    void importNumber() {
+    void importFraction() {
         Scanner input = new Scanner(System.in);
 
-        System.out.println("==== ENTER FRACTION ====");
-
-        System.out.print("Enter Numerator: ");
+        System.out.println("==== IMPORT FRACTION ====");
+        System.out.println("Enter Numerator: ");
         numerator = input.nextInt();
 
         do {
-            System.out.print("Enter Denominator: ");
+            System.out.println("Enter Denominator: ");
             denominator = input.nextInt();
+
             if (denominator == 0) {
-                System.out.println("\u001B[31m" + "Denominator must dif 0, please enter again" + "\u001b[0m");
+                System.out.println("Invalid Denominator, denominator must > 0");
             }
         }
         while (denominator == 0);
     }
 
-    void exportNumber() {
+    void exportFraction() {
 
-        System.out.printf("%d/%d" + "\n", numerator, denominator);
+        int commonDivisor = IntegerNumberUtil.findGreatestCommonDivisor(numerator, denominator);
+        System.out.printf("%d/%d" + "\n", numerator / commonDivisor, denominator / commonDivisor);
 
+    }
+
+    Fraction checkFraction() {
         if (numerator * denominator > 0) {
             System.out.println("This is a possive fraction");
         } else if (numerator == 0) {
@@ -43,10 +41,8 @@ public class Fraction {
         } else {
             System.out.println("This is not a negative fraction");
         }
-
-
+        return null;
     }
-
 
     Fraction sum(Fraction fraction) {
         Fraction sum = new Fraction();
@@ -83,4 +79,5 @@ public class Fraction {
 
         return subtraction;
     }
+
 }
