@@ -29,7 +29,7 @@ public class IntegerNumberUtil {
     }
 
     public static int findGreatestCommonDivisor(int a, int b) {
-        int min = Math.min(a, b);
+        int min = Math.min(Math.abs(a), Math.abs(b));
 
         for (int i = min; i > 0; i--) {
             if (a % i == 0 && b % i == 0) {

@@ -12,5 +12,4 @@ public class PointsManagement {
 
         System.out.println("Distance to: " + distanceTo);
     }
-
 }
