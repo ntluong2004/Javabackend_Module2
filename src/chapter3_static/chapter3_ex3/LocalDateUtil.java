@@ -16,12 +16,12 @@ public class LocalDateUtil {
 
     public static LocalDate fromString_ddMMyyyy(String date) {
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy");
-return LocalDate.parse(date, formatter);
+        return LocalDate.parse(date, formatter);
     }
 
     public static LocalDate fromString_yyyyMMdd(String date) {
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy/MM/dd");
-    return LocalDate.parse(date, formatter);
+        return LocalDate.parse(date, formatter);
     }
 
     public static String toString_ddMMyyyy(LocalDate date) {

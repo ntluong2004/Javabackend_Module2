@@ -13,37 +13,35 @@ public class Student {
         setScore(score);
     }
 
-    public int getId(){
+    public int getId() {
         return id;
     }
 
-    public String getName(){
+    public String getName() {
         return name;
     }
 
-    public void setName(String name){
-        if(name==null || name.trim().isEmpty()){
+    public void setName(String name) {
+        if (name == null || name.trim().isEmpty()) {
             System.out.println("Student name can't empty");
-        }
-        else {
+        } else {
             this.name = name;
         }
     }
 
-    public double getScore(){
+    public double getScore() {
         return score;
     }
 
-    public void setScore(double score){
-        if(score >= 0 && score <= 10){
+    public void setScore(double score) {
+        if (score >= 0 && score <= 10) {
             this.score = score;
-        }
-        else{
+        } else {
             System.out.println("Student score can't less than 0 and greater than 10");
         }
     }
 
-    public void exportStudent(){
+    public void exportStudent() {
         System.out.println("Student id: " + id + " name: " + name + " score: " + score);
     }
 

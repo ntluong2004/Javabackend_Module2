@@ -26,13 +26,13 @@ public class Fraction {
 //    }
 
     public void exportFraction() {
-        int commonDivision = IntegerNumberUtil.findGreatestCommonDivisor(numerator, denominator);
 
         if (numerator == 0) {
             System.out.println("0");
             return;
         }
 
+        int commonDivision = IntegerNumberUtil.findGreatestCommonDivisor(numerator, denominator);
         numerator /= commonDivision;
         denominator /= commonDivision;
 

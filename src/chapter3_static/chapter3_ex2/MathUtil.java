@@ -9,8 +9,6 @@ package chapter3_static.chapter3_ex2;
 //Chia 2 số.
 
 public class MathUtil {
-    private double a;
-    private double b;
 
     public static double add(double a, double b) {
         return a + b;
