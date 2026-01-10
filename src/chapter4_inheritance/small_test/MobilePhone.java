@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class MobilePhone {
-    String id;
+    private String id;
     private String name;
     private double price;
     private LocalDate warranty;
