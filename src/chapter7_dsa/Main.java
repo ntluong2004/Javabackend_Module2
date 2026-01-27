@@ -11,6 +11,7 @@ public class Main {
         linkedList.addFirst(20);
         linkedList.addFirst(50);
 
+//        linkedList.addFirst("luong");
 
         System.out.println(linkedList);
         System.out.println(linkedList.lastIndexOf(20));
@@ -26,5 +27,6 @@ public class Main {
 //        arrayList.removeElement(70);
 //
 //        System.out.println(arrayList);
+
     }
 }
