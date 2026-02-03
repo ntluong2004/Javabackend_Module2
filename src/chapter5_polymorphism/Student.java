@@ -7,6 +7,10 @@ public class Student extends Person {
         this.name = name;
     }
 
+    public Student(int i, String s, double v) {
+        super();
+    }
+
     public String getName() {
         return name;
     }
