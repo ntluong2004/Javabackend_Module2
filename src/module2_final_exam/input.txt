@@ -1,0 +1,7 @@
+C001,Nguyen Van A,1995,0905123456,vana@gmail.com,0,5,Java Spring
+C002,Le Thi B,2000,0905111222,thib@vku.udn.vn,1,2024/06/15,Excellent,VKU Da Nang
+C001,Nguyen Van A Duplicate,1995,0905123456,vana@gmail.com,0,5,Java Spring
+C003,Tran Van C,1850,0905333444,vanc@gmail.com,2,IT,Semester 6,VKU
+C004,Hoang Thi D,1998,0905444555,thi_d_invalid_email,0,2,Photoshop
+C005,Phan Van E,2003,0905555666,vane@gmail.com,2,Graphic Design,Semester 4,DUT
+
