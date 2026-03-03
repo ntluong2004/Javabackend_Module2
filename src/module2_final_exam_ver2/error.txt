@@ -1,0 +1,2 @@
+Nguyen Van A, 01/20/1990, Ha Noi, 123456789, S, 10 nam, 10000, Tiet kiem, Dong theo thang, 01/01/2026, null, test, null, null, 5 nam -> Errors: Fee out of range. Endowment package contains redundant data. 
+Test ngay, 02/31/2025, Hue, 111222333, T, 5 nam, 500000, Sai Phi, Mot lan, 01/01/2026, null, null, Tu ky, 1 thang, null -> Errors: Invalid DOB. Fee out of range. 

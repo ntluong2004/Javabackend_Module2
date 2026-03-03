@@ -9,8 +9,12 @@ public abstract class Candidate {
     private List<Certificate> certificates = new ArrayList<>();
 
     public Candidate(String id, String fullName, int birthDay, String phone, String email, int type) {
-        this.id = id; this.fullName = fullName; this.birthDay = birthDay;
-        this.phone = phone; this.email = email; this.candidateType = type;
+        this.id = id;
+        this.fullName = fullName;
+        this.birthDay = birthDay;
+        this.phone = phone;
+        this.email = email;
+        this.candidateType = type;
         candidateCount++;
     }
 

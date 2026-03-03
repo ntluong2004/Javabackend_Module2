@@ -1,0 +1,3 @@
+T, Tran Thi Mai, 11/12/1984, Da Nang, 209890786, BH tu vong, khong xac dinh, 1000000, Thuc hien mai tan xa chot cat, Dong mot lan, 09/20/2015, null, null, Truogn hop ty ky, 2 thang, null
+H, Nguyen Thi Minh, 08/25/1989, Quang Nam, 345678987, BH theo han hop dong, 1 nam, 5000000, Hoan tra so tien cho nguoi duoc huong BH, Dong theo thang, 07/20/2016, 07/20/2017, Benh hiem ngheo, null, 6 thang, null
+S, Tran Quoc Toan, 11/20/1982, Hue, 345098789, BH sinh ky, khong xac dinh, 500000, Tro cap cho nguoi huong bao hiem, Dong mot lan, 07/20/2015, null, null, null, null, Tro cap den khi chet
